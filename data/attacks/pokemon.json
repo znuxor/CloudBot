@@ -32,10 +32,10 @@
             "Raichu",
             "Sandshrew",
             "Sandslash",
-            "Nidoran♀",
+            "Nidoran\u2640",
             "Nidorina",
             "Nidoqueen",
-            "Nidoran♂",
+            "Nidoran\u2642",
             "Nidorino",
             "Nidoking",
             "Clefairy",
@@ -672,7 +672,7 @@
             "Vivillon",
             "Litleo",
             "Pyroar",
-            "Flabébé",
+            "Flab\u00e9b\u00e9",
             "Floette",
             "Florges",
             "Skiddo",
@@ -1430,7 +1430,7 @@
             "It's not very effective...",
             "Critical hit!",
             "But, it failed!",
-            "You missed the POKÉMON!"
+            "You missed the POK\u00c9MON!"
         ]
     }
 }
