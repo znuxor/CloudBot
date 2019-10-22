@@ -4,6 +4,8 @@
 [![codecov](https://codecov.io/gh/snoonetIRC/CloudBot/branch/gonzobot/graph/badge.svg)](https://codecov.io/gh/snoonetIRC/CloudBot) 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6aa6ba0ca9804f1a9530e0c1a9c39478)](https://www.codacy.com/app/linuxdaemon/CloudBot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=snoonetIRC/CloudBot&amp;utm_campaign=Badge_Grade)
 
+THIS PROJECT HAS MOVED TO [TotallyNotRobots/CloudBot](https://github.com/TotallyNotRobots/CloudBot)
+
 CloudBot is a simple, fast, expandable open-source Python IRC Bot!
 
 ## Getting CloudBot
