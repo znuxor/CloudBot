@@ -10,7 +10,7 @@ define_url = base_url + "/define"
 random_url = base_url + "/random"
 
 
-@hook.command("urban", "u", autohelp=False)
+@hook.command("urban", "u", "ud", autohelp=False)
 def urban(text, reply):
     """<phrase> [id] - Looks up <phrase> on urbandictionary.com."""
 
@@ -24,7 +24,8 @@ def urban(text, reply):
         parts = text.split()
 
         # if the last word is a number, set the ID to that number
-        if parts[-1].isdigit():
+        # but not if its the only word, in which case the number is the query
+        if parts[-1].isdigit() and len(parts) > 1:
             id_num = int(parts[-1])
             # remove the ID from the input string
             del parts[-1]

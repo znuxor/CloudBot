@@ -1,8 +1,8 @@
 # CloudBot
-[![Build Status](https://travis-ci.org/snoonetIRC/CloudBot.svg?branch=gonzobot)](https://travis-ci.org/snoonetIRC/CloudBot) 
-[![CodeFactor](https://www.codefactor.io/repository/github/snoonetirc/cloudbot/badge/gonzobot)](https://www.codefactor.io/repository/github/snoonetirc/cloudbot/overview/gonzobot) 
-[![codecov](https://codecov.io/gh/snoonetIRC/CloudBot/branch/gonzobot/graph/badge.svg)](https://codecov.io/gh/snoonetIRC/CloudBot) 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6aa6ba0ca9804f1a9530e0c1a9c39478)](https://www.codacy.com/app/linuxdaemon/CloudBot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=snoonetIRC/CloudBot&amp;utm_campaign=Badge_Grade)
+[![Build Status](https://travis-ci.com/TotallyNotRobots/CloudBot.svg?branch=gonzobot)](https://travis-ci.com/TotallyNotRobots/CloudBot) 
+[![CodeFactor](https://www.codefactor.io/repository/github/totallynotrobots/cloudbot/badge/gonzobot)](https://www.codefactor.io/repository/github/totallynotrobots/cloudbot/overview/gonzobot) 
+[![codebeat badge](https://codebeat.co/badges/3e5866e3-fe94-4c92-9dd7-8fbd616bc2ac)](https://codebeat.co/projects/github-com-totallynotrobots-cloudbot-gonzobot) 
+[![codecov](https://codecov.io/gh/TotallyNotRobots/CloudBot/branch/gonzobot/graph/badge.svg)](https://codecov.io/gh/TotallyNotRobots/CloudBot) 
 
 THIS PROJECT HAS MOVED TO [TotallyNotRobots/CloudBot](https://github.com/TotallyNotRobots/CloudBot)
 
@@ -16,15 +16,13 @@ There are currently four different branches of this repository, each with a diff
  - **master** *(stable (old))*: This branch contains stable, tested code. This branch is based directly on the upstream master branch and is not currently maintained.
  - **python3.4** *(unstable (old))*: This is the outdated testing branch from the upstream repo.
 
-New releases will be pushed from **python3.4** to **master** whenever we have a stable version to release. These changes will be merged into **gonzobot** then deployed. This should happen on a fairly regular basis, so you'll never be too far behind the latest improvements.
-
 ## Installing CloudBot
 
-Firstly, CloudBot will only run on **Python 3.4 or higher**. Because we use the asyncio module, you will not be able to use any other versions of Python.
+Firstly, CloudBot will only run on **Python 3.5.3 or higher**
 
-To install CloudBot on *nix (linux, etc), see [here](https://github.com/CloudBotIRC/CloudBot/wiki/Installing-on-*nix)
+To install CloudBot on *nix (linux, etc), see [here](docs/installing/nix.md)
 
-To install CloudBot on Windows, see [here](https://github.com/CloudBotIRC/CloudBot/wiki/Installing-on-Windows)
+To install CloudBot on Windows, see [here](docs/installing/win.md)
 
 
 ### Running CloudBot
@@ -34,12 +32,12 @@ Before you run the bot, rename `config.default.json` to `config.json` and edit i
 Once you have installed the required dependencies and renamed the config file, you can run the bot! Make sure you are in the correct folder and run the following command:
 
 ```
-python3.4 -m cloudbot
+python3 -m cloudbot
 ```
 
 Note that you can also run the `cloudbot/__main__.py` file directly, which will work from any directory.
 ```
-python3.4 CloudBot/cloudbot/__main__.py
+python3 CloudBot/cloudbot/__main__.py
 ```
 Specify the path as /path/to/repository/cloudbot/__main__.py, where `cloudbot` is inside the repository directory.
 
@@ -61,7 +59,7 @@ If you think you have found a bug/have a idea/suggestion, please **open a issue*
 
 ## Changelog
 
-See [CHANGELOG.md](https://github.com/CloudBotIRC/CloudBot/blob/master/CHANGELOG.md)
+See [CHANGELOG.md](CHANGELOG.md)
 
 ## License
 
